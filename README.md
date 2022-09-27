@@ -2,7 +2,8 @@
 Welcome to the vendor-machine wiki!
 
 Instalation
-Required docker with postgres. To create postgres db run this command on termial:
+
+Required docker with postgres. To create postgres db, run this command on termial:
 
 docker run --name local-psql -v local_psql_data:/$HOME/ -p 54320:5432 -e POSTGRES_PASSWORD=vendor123 -d postgres
 
